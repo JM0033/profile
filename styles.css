@@ -1,0 +1,83 @@
+body {
+  color:#0F4C75;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height:30px;
+  background-color: whitesmoke;
+}
+
+h1, h2 {
+  color: #1B262C;
+  font-weight: 900;
+  font-size: 32px;
+  font-family: 'Roboto', sans-serif;
+}
+
+a{
+  text-decoration: none;
+  color: #3282B8;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto
+}
+
+.img-circle {
+  border-radius: 50%;
+  margin: 40px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.btn-blue {
+  background: #0F4C75;
+  border-radius: 4px;
+  color: white;
+  padding: 10px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+.footer{
+  text-decoration: none;
+  font-size: 40px;
+  list-style: none;
+  padding-left: 0px;
+  display:inline-block;
+  line-height: 20px;
+  margin:0px
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
